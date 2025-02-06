@@ -1,0 +1,28 @@
+<br>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card rounded-4 shadow-lg" style="width: 24rem;">
+        <div class="card-body bg-dark text-light rounded-4">
+            <h5 class="card-title text-center mb-4">Crear Cuenta</h5>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre de Cuenta</label>
+                    <input type="nombre" class="form-control" id="nombre" placeholder="Juan" name="nombre" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo Electrónico</label>
+                    <input type="correo" class="form-control" id="correo" placeholder="correo@ejemplo.com" name="correo" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="contraseña" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="contraseña" placeholder="Contraseña" name="contraseña" required>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Crear Cuenta</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
