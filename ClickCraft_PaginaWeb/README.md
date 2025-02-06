@@ -1,6 +1,6 @@
 # ClickCraftPaginaWeb
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 17.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
 
 ## Development server
 
