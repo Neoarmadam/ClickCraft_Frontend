@@ -1,0 +1,21 @@
+<div class="container py-5">
+    <!--Impresion de cards con los datos de los Animes-->
+    <div class="container mt-5">
+      <div class="row">
+        @for(anime of animes; track $index){
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 bg-dark">
+              <div class="card-body text-center bg-dark text-light rounded-4">
+                <div class="mb-4">
+                  <img src="assets/img/raton.jpg" class="img-fluid rounded-4" width="120px" height="120px">
+                  <h3><a class="text-light">Raton Generico</a></h3>
+                  <p>Es un raton normal y corriente</p>
+                </div>  
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  
+  </div>
