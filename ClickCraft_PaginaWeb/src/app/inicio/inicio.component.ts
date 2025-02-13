@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './inicio.component.css'
 })
 export class InicioComponent {
-  animes = new Array(10);
+  animes = new Array(15);
 }
